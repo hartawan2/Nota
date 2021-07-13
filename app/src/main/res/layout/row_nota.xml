@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:focusable="true"
+    android:padding="15dp"
+    android:orientation="vertical">
+    <TextView
+        android:id="@+id/name"
+        android:textSize="20dp"
+        android:textStyle="bold"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textColor="#000000"
+        android:text="Nama"/>
+    <TextView
+        android:id="@+id/nop"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nomor HP"/>
+
+    <TextView
+        android:id="@+id/jb"
+
+        android:layout_width="wrap_content"
+        android:layout_height="6dp"
+        android:text="Jenis Barang" />
+    <TextView
+        android:id="@+id/kerusakan"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Kerusakan"/>
+
+    <TextView
+        android:id="@+id/teknisi"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Nama Teknisi" />
+
+</LinearLayout>
